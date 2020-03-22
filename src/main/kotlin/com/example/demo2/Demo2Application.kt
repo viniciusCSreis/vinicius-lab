@@ -1,11 +1,12 @@
-package vinicius.lab.books
+package com.example.demo2
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
-class BooksApplication
+class Demo2Application
 
 fun main(args: Array<String>) {
-	runApplication<BooksApplication>(*args)
+	runApplication<Demo2Application>(*args)
 }

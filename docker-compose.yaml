@@ -1,0 +1,23 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:9.4
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=imoveis
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin@123
+      - MAX_CONNECTIONS=300
+    networks:
+      - spring_rest_repository_demo
+    volumes:
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+networks:
+  spring_rest_repository_demo:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.68.80.1/24

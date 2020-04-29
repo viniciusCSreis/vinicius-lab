@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.4](https://github.com/viniciusCSreis/vinicius-lab/tree/0.0.4) (2020-03-24)
+
+[Full Changelog](https://github.com/viniciusCSreis/vinicius-lab/compare/0.0.3...0.0.4)
+
+**Merged pull requests:**
+
+- Update README.md [\#4](https://github.com/viniciusCSreis/vinicius-lab/pull/4) ([viniciusCSreis](https://github.com/viniciusCSreis))
+- Changelog [\#3](https://github.com/viniciusCSreis/vinicius-lab/pull/3) ([github-actions[bot]](https://github.com/apps/github-actions))
+
 ## [0.0.3](https://github.com/viniciusCSreis/vinicius-lab/tree/0.0.3) (2020-03-24)
 
 [Full Changelog](https://github.com/viniciusCSreis/vinicius-lab/compare/0.0.2...0.0.3)
